@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Code') {
             steps {
-                git 'https://github.com/bhaumik-jangid/jenkins-demo'
+                git 'https://github.com/bhaumik-jangid/jenkins-demo.git'
             }
         }
 
